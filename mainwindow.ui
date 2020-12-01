@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>777</width>
+    <height>616</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>777</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <widget class="QMenu" name="menuNew_Game">
+     <property name="title">
+      <string>New Game</string>
+     </property>
+     <addaction name="actionClassic_field"/>
+     <addaction name="actionHard_Field"/>
+     <addaction name="actionHardcore_Field"/>
+    </widget>
+    <addaction name="menuNew_Game"/>
+    <addaction name="actionRecords"/>
+   </widget>
+   <addaction name="menuMenu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionClassic_field">
+   <property name="text">
+    <string>Classic Field</string>
+   </property>
+  </action>
+  <action name="actionRecords">
+   <property name="text">
+    <string>Records</string>
+   </property>
+  </action>
+  <action name="actionHard_Field">
+   <property name="text">
+    <string>Hard Field</string>
+   </property>
+  </action>
+  <action name="actionHardcore_Field">
+   <property name="text">
+    <string>Hardcore Field</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
